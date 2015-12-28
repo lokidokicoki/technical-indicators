@@ -163,8 +163,8 @@
 
 
 		// Calculating the short and long EMA used when calculating the MACD
-		shortEMA = EMA(xData, yData, 12);
-		longEMA = EMA(xData, yData, 26);
+		shortEMA = EMA(xData, yData, shortPeriod);
+		longEMA = EMA(xData, yData, longPeriod);
 
 		// subtract each Y value from the EMA's and create the new dataset (MACD)
 		for (var i = 0; i < shortEMA.length; i++) {
