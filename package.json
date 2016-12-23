@@ -1,0 +1,19 @@
+{
+  "name": "technical-indicators",
+  "version": "1.0.0",
+  "description": "Highcharts-plugin that allows the user to add technical indicators to their charts.",
+  "main": "technical-indicators.src.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokidokicoki/technical-indicators.git"
+  },
+  "author": "Olaf Berge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lokidokicoki/technical-indicators/issues"
+  },
+  "homepage": "https://github.com/lokidokicoki/technical-indicators#readme"
+}
